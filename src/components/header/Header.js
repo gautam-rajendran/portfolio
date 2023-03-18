@@ -11,7 +11,7 @@ export const Header = () => {
         </div>
         <div className='headerl'>  
         <Link to='about' smooth={true} duration={600} >
-            <h4>About m</h4>
+            <h4>About me</h4>
         </Link>
         <Link to='skills' smooth={true} duration={600} >
             <h4>Skills</h4>

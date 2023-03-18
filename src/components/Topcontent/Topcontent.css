@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Nunito:wght@300&display=swap');
+
+.Topcontent{
+    color: white;
+    font-family: josefin sans;
+    font-weight: 100;
+    letter-spacing: 1px;
+    position: relative;
+    
+}
+.myinfo{
+    position: absolute;
+    top: 450px;
+    right: 100px;
+
+}
+myinfo > h1{
+    font-family: Cinzel;
+}
+.myinfo > p{
+    text-align: left;
+    padding: 2px;
+}
+.myinfo > a > button{
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.dbtn{
+    color: white;
+    background-color: orange;
+    font-size: 14px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 300;
+    margin-right: 20px;
+}
+.dbtn:hover{
+    background-color: white;
+    color: orange;
+}
+.mwbtn{
+    color: white;
+    border: 1px solid black !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 9px 45px;
+    font-weight: 300;
+    cursor: pointer;
+    
+}
+.mwbtn:hover{
+    background-color: white;
+    color: orange;
+    padding: 9px 45px;
+
+}

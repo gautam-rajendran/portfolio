@@ -1,21 +1,35 @@
 import React from 'react'
-import {InstagramIcon,FacebookOutlined} from '@mui/icons-material';
+import './Contact.css'
+import {Facebook,Instagram,LinkedIn} from '@mui/icons-material';
+import { IconButton } from '@mui/material';
+import { Element } from 'react-scroll';
+
 const Contact = () => {
   return (
-   <Element classname="contact" >
+   <Element id='contact' className='bbb'>
     <h1>Contacts</h1>
-    <div>
+    <div className='Contact_container'>
         <p>
             Email: <span>gowthamrajendran4272@gmail.com</span>
         </p>
         <p>
             Github: <span>gautam-rajendran</span>
         </p>
-        <div>
+        <div className='Contact_icons'>
            <a href='www.google.com'>
-              <iconButton/>
-              <InstagramIcon/>
-              
+              <IconButton>
+                 <LinkedIn/>
+              </IconButton>
+           </a>
+           <a href='www.google.com'>
+              <IconButton>
+                 <Instagram/>
+              </IconButton>
+           </a>
+           <a href='www.google.com'>
+              <IconButton>
+                 <Facebook/>
+              </IconButton>
            </a>
         </div>
         

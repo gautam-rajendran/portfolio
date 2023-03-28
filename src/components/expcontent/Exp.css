@@ -1,0 +1,16 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted white;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.experience > p{
+    font-size: 15px;
+    letter-spacing: 1px;
+}

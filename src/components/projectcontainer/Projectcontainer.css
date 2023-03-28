@@ -1,0 +1,16 @@
+.projectcontainer{
+    font-family: nunito;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+    height: 100vh;
+}
+
+.projectcontainer_projects {
+    display: flex;
+    width: 50vw;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
